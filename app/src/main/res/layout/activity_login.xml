@@ -31,7 +31,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/password_login"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/rectangle_111" />
+        app:srcCompat="@drawable/rectangle_111"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/signup_text"
@@ -40,7 +41,7 @@
         android:fontFamily="@font/montserrat"
         android:text="New to Jom!Dobi?"
         android:textColor="@color/white"
-        android:textSize="11sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.323"
@@ -53,10 +54,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
+        android:focusable="auto"
         android:fontFamily="@font/montserrat"
         android:text="Create an account"
         android:textColor="#006075"
-        android:textSize="11sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.679"
@@ -120,6 +122,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.271"
-        app:srcCompat="@drawable/group_4" />
+        app:srcCompat="@drawable/group_4"
+        android:contentDescription="TODO" />
 
 </android.support.constraint.ConstraintLayout>
