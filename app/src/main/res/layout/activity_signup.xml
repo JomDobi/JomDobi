@@ -162,48 +162,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.816" />
 
-    <Button
-        android:id="@+id/twitter"
-        android:layout_width="42dp"
-        android:layout_height="42dp"
-        android:background="@android:color/transparent"
-        android:foreground="@drawable/twitter"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register_btn"
-        app:layout_constraintVertical_bias="0.531" />
-
-    <Button
-        android:id="@+id/facebook"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:background="@android:color/transparent"
-        android:foreground="@drawable/fb"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.358"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register_btn"
-        app:layout_constraintVertical_bias="0.523" />
-
-    <Button
-        android:id="@+id/google"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="3dp"
-        android:background="@android:color/transparent"
-        android:foreground="@drawable/google"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.633"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register_btn"
-        app:layout_constraintVertical_bias="0.527" />
-
     <ImageView
         android:id="@+id/show_pass"
         android:layout_width="wrap_content"
